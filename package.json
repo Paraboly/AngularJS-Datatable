@@ -3,7 +3,14 @@
   "version": "0.0.1",
   "description": "Starter for Angular + ES6 + (Webpack or JSPM)",
   "main": "app.bundle.js",
-  "dependencies": {},
+  "dependencies": {
+    "angular-datatables": "^8.0.0",
+    "datatables.net-autofill-dt": "^2.3.4",
+    "datatables.net-buttons-dt": "^1.6.1",
+    "datatables.net-dt": "^1.10.20",
+    "jszip": "^3.2.2",
+    "pdfmake": "^0.1.63"
+  },
   "peerDependencies": {
     "angular": "^1.7.8"
   },
