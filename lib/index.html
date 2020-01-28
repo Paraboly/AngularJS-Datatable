@@ -15,12 +15,12 @@
 
   <body
     style="height: 100vh; width: 100vw"
-    ng-app="paraboly.appComponent"
+    ng-app="paraboly.datatable"
     ng-strict-di
     ng-cloak
   >
-    <app-component>
+    <paraboly-dt api="getData" columns="columns" ng-if="columns">
       Loading...
-    </app-component>
+    </paraboly-dt>
   </body>
 </html>

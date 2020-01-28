@@ -59,7 +59,8 @@
   },
   "scripts": {
     "build": "gulp webpack",
-    "build-serve": "npx http-server ./dist",
+    "build-library": "gulp webpack && cp package.json ../build/dist/ && Echo Build completed!",
+    "build-serve": "npx http-server ./dist ",
     "component": "gulp component",
     "serve": "gulp serve",
     "start": "gulp serve",
